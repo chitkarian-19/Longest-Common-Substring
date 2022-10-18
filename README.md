@@ -5,7 +5,7 @@ In this problem we are supposed to find out the longest common substring. One of
 To reduce the time comeplxity we will use a dynamic programming approach, we will generate all the prefixes of first and second string and store it into separate tables. After that we will find the max suffix length by comparing all the prefixes from table1 with all the prefixes from table2.
 Sharing the code approach.
 
-`````
+`````cpp
 class Solution{
     int longestCommonSubstr(String s1, String s2, int n, int m){
         // code here
@@ -35,4 +35,5 @@ class Solution{
 `````
 
 Time complexlity : O(n^2)
+
 Space Complexity : O(n^2)
