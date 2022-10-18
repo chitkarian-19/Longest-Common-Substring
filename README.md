@@ -33,3 +33,6 @@ class Solution{
 }
 
 `````
+
+Time complexlity : O(n^2)
+Space Complexity : O(n^2)
